@@ -14,11 +14,17 @@ body {
 }
 
 .transbox {
-  margin: 10px;
+  margin: 5px;
   background-color: #000000;
   border: 1px solid black;
   opacity: 0.6;
   filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
 }
 
 .text-vertical-center {
